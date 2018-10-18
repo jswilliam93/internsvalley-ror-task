@@ -72,6 +72,9 @@ GEM
     rack (2.0.5)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rack-throttle (0.7.0)
+      bundler (>= 1.0.0)
+      rack (>= 1.0.0)
     rails (5.1.6)
       actioncable (= 5.1.6)
       actionmailer (= 5.1.6)
@@ -129,6 +132,7 @@ DEPENDENCIES
   httparty
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
+  rack-throttle
   rails (~> 5.1.6)
   spring
   spring-watcher-listen (~> 2.0.0)

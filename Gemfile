@@ -42,3 +42,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Makes http fun again! Ain't no party like a httparty, because a httparty don't stop.
 gem 'httparty'
+
+# HTTP Request Rate Limiter for Rack Applications
+gem 'rack-throttle'
